@@ -7,7 +7,7 @@
 *MENTOR*: NEELA SANTHOSH KUMAR  
 DESCRIPTION OF THE PROJECT:  
 
-The second task of my internship involved implementing a singly linked list in C with functionalities for insertion, deletion, and traversal. I used Visual Studio Code and GCC as before, ensuring that my environment was ready and consistent with Task 1. I created a new file named linked_list.c and started by defining the basic structure of a node using a struct in C.
+The second task of my internship involved implementing a singly linked list in C with functionalities for insertion, deletion, and traversal. I used Visual Studio Code and GCC as before, ensuring that my environment was ready and consistent with Task 1. I created a new file named project_2.c and started by defining the basic structure of a node using a struct in C.
 
 The struct Node contained an integer data field and a pointer to the next node. I initialized the head pointer to NULL and developed a menu-driven interface for the user. The user could insert a new node at the end, delete a node by value, and display the current list. For insertion, I dynamically allocated memory using malloc() for the new node. If the list was empty, the head would point to this new node. Otherwise, I traversed the list until the last node and added the new node at the end.
 
